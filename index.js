@@ -1,4 +1,4 @@
-const arrowF = (search='w') =>{
+const arrowF = (search='samsung') =>{
      const api = ` https://openapi.programming-hero.com/api/phones?search=${search}`
      fetch(api)
     .then(pro => pro.json())
